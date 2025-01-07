@@ -46,7 +46,7 @@ I3D inflates 2D convolutional filters into 3D, using pre-trained ImageNet models
 
 ## Dataset
 
-Dataset source: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)]
+Dataset source: https://www.brain-cog.network/dataset/Bullying10k/<br>
 We train the models with following class:   
 - **Pushing**  
 - **Punching**  
@@ -70,3 +70,31 @@ Each video has been pre-processed into numpy arrays (`.npy` files), capturing bo
    pip install requirements.txt
 
 ---
+
+## Training
+
+1. Open `train.py`
+2. View line 105 - 107
+3. Choose one model that you want to train
+
+---
+
+## Evaluation
+<div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+
+**BATCH_SIZE:** 4  
+**STEP:** 30  
+**GAP:** 4  
+**SIZE:** 112  
+**NUM_CLASSES:** 6  
+**LEARNING_RATE:** 1e-5  
+**EPOCHS:** 30  
+**SEED:** 42  
+**WEIGHT_DECAY:** 1e-4  
+
+</div>
+Model | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+   
