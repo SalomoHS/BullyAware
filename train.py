@@ -92,6 +92,10 @@ if __name__ == "__main__":
     config.SEED = 42
     config.WEIGHT_DECAY = 1e-4
     config.SIZE = 112
+    config.LAYERS = (4, 4, 4, 4)
+    config.CHANNELS =(64, 256, 512,1024)
+    config.EXPANSION = 4
+    
     torch.manual_seed(config.SEED)
     np.random.seed(config.SEED)
 
@@ -103,12 +107,14 @@ if __name__ == "__main__":
     test_size = len(test_dataloader.dataset)
 
     model = model.C3D(num_classes=config.NUM_CLASSES, pretrained=False, inchannel=2)
-    # model = model.X3D(num_classes = config.NUM_CLASSES, layers = config.layers,channels=config.channels)
-    # model = model.Inception3D(num_classes=config.NUM_CLASSES)
+    # model = model.X3D(num_classes = config.NUM_CLASSES, layers = config.layers, 
+    #                   channels=2, expansion = config.EXPANSION)
+    # model = model.Inception3D(num_classes = config.NUM_CLASSES)
     
     model.to(device)
     criterion = nn.CrossEntropyLoss() 
-    optimizer = optim.Adam(model.parameters(), lr=config.LEARNING_RATE, weight_decay=config.WEIGHT_DECAY)
+    optimizer = optim.Adam(model.parameters(), lr=config.LEARNING_RATE, 
+                           weight_decay = config.WEIGHT_DECAY)
 
     wandb.watch(model, log="all")
     for epoch in range(config.EPOCHS):
