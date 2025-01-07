@@ -18,7 +18,7 @@
 ## Overview
 
 This repository demonstrates the use of state-of-the-art models, such as:  
-1. **C3D (Convolutional 3D)**  
+1. **Convolutional 3D (C3D)**  
 2. **Expanded 3D (E3D)**  
 3. **Inflated 3D (I3D)**  
 
