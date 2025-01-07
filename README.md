@@ -46,7 +46,9 @@ I3D inflates 2D convolutional filters into 3D, using pre-trained ImageNet models
 
 ## Dataset
 
-Dataset source: ![Test Status]([https://www.brain-cog.network/dataset/Bullying10k/)])
+Dataset source: <div align="center">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=hoangsonww.hoangsonww" alt="Visitor Count" />
+</div><br>
 We train the models with following class:   
 - **Pushing**  
 - **Punching**  
