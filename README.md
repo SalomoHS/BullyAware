@@ -24,8 +24,8 @@ This repository demonstrates the use of state-of-the-art models, such as:
 
 Each model has been fine-tuned for the specific task of bullying action classification.
 `Bullying10K` folder cloned from this repository:
-```bash
-https://github.com/Brain-Cog-Lab/Bullying10K.git
+   ```bash
+   https://github.com/Brain-Cog-Lab/Bullying10K.git
 
 ---
 
