@@ -19,7 +19,7 @@
 
 This repository demonstrates the use of state-of-the-art models, such as:  
 1. **Convolutional 3D (C3D)**  
-2. **Expanded 3D (E3D)**  
+2. **Expanded 3D (X3D)**  
 3. **Inflated 3D (I3D)**  
 
 Each model has been fine-tuned for the specific task of bullying action classification.
@@ -30,10 +30,10 @@ Each model has been fine-tuned for the specific task of bullying action classifi
 
 ## Models
 
-### 1. **C3D (Convolutional 3D)**  
+### 1. **Convolutional 3D (C3D)**  
 C3D captures spatial and temporal features in videos using 3D convolutions, making it well-suited for action recognition.
 
-### 2. **Expanded 3D (E3D)**  
+### 2. **Expanded 3D (X3D)**  
 E3D expands on traditional 3D convolutions by optimizing kernel size and adding more depth to layers for improved feature extraction.
 
 ### 3. **Inflated 3D (I3D)**  
