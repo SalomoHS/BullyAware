@@ -46,7 +46,7 @@ I3D inflates 2D convolutional filters into 3D, using pre-trained ImageNet models
 
 ## Dataset
 
-Dataset source: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
+Dataset source: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)]
 We train the models with following class:   
 - **Pushing**  
 - **Punching**  
