@@ -88,8 +88,11 @@ Each video has been pre-processed into numpy arrays (`.npy` files), capturing bo
 - EPOCHS: 30      
 - WEIGHT_DECAY: 1e-4  
 
-Model | #1 | 
+Model | Accuracy | 
 ----- | --- |
-Seconds | 301 |
+Convolutional 3D  (C3D) | 80% |
+Inflated 3D (I3D) | 54% |
+Expanded 3D (X3D) | 76% |
+
 
    
