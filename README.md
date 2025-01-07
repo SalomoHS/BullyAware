@@ -17,17 +17,15 @@
 
 ## Overview
 
-This project aims to leverage 3D convolutional networks to detect bullying actions in videos. The key objectives are:  
-- **High accuracy in classification.**  
-- **Real-time applicability for monitoring systems.**  
-- **Transferability to other action-recognition tasks.**  
-
-The repository demonstrates the use of state-of-the-art models, such as:  
+This repository demonstrates the use of state-of-the-art models, such as:  
 1. **C3D (Convolutional 3D)**  
 2. **Expanded 3D (E3D)**  
 3. **Inflated 3D (I3D)**  
 
 Each model has been fine-tuned for the specific task of bullying action classification.
+`Bullying10K` folder cloned from this repository:
+```bash
+   https://github.com/Brain-Cog-Lab/Bullying10K.git
 
 ---
 
